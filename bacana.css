@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Nunito+Sans:opsz,wght@6..12,300&family=Open+Sans&family=Poppins:wght@300&display=swap');
+* {
+    margin: 0;
+    box-sizing: 0;
+}
+
+
+.menu {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.menu-nav {
+    display: flex;
+    margin-top: 7px;
+    margin-left: 270px;
+}
+.menu-nav p {
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.navega {
+    margin-top: 10px;
+    margin-left: 400px;
+}
+.nav-menu {
+    width: 60px;
+}
+
+
+.logo {
+    width: 210px;
+    height: 30px;
+}
+/* conteudo iteiro */
+#bloco {
+    width: 1200px;
+    height: 400px;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+#bloco h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+/* espaço para digitar a nota */
+#nova-nota {
+    height: 40px;
+    width: 600px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f3f3f3;
+}
+/* botoes de adicionar e limpar */
+#adicionar-nota, #limpar-notas {
+    width: 200px;
+    height: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+
+}
+.images {
+    position: absolute;
+    left: 940px;
+    top: 230px;
+}
+.image2 {
+    width: 220px;
+}
+.image1 {
+    width: 270px;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+/* FINAL */
+.footer {
+    background-color: #4e4e4e;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.copyright {
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+}
